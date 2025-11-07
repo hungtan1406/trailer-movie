@@ -2,6 +2,7 @@
 <img width="1887" height="872" alt="image" src="https://github.com/user-attachments/assets/c579590b-4507-440e-8d42-b0912166e9e8" />
 
 A React-based web application that allows users to explore movies, view trailers, and search for movies by various categories. This app integrates with the TMDB API for movie details and YouTube for trailers.
+
 ---
 ## Features
 - Movie Search: Users can search for movies and view the results.
@@ -55,6 +56,10 @@ A React-based web application that allows users to explore movies, view trailers
 - React Router DOM: For handling page navigation.
 ---
 
+### Demo
+- https://movie-web-xi-eight.vercel.app
+
+---
 
 ### Contact
 - Email: hungtanth1406@gmail.com
