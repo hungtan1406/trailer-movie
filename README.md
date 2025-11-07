@@ -1,16 +1,61 @@
-# React + Vite
+# WEBSITE MOVIES
+<img width="1887" height="872" alt="image" src="https://github.com/user-attachments/assets/c579590b-4507-440e-8d42-b0912166e9e8" />
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React-based web application that allows users to explore movies, view trailers, and search for movies by various categories. This app integrates with the TMDB API for movie details and YouTube for trailers.
+---
+## Features
+- Movie Search: Users can search for movies and view the results.
+- Movie Detail View: Display detailed information about the selected movie and play its trailer.
+- Trending & Top-Rated Movies: Showcase trending and top-rated movies with the option to view more details.
+- Responsive Design: Fully responsive design using Tailwind CSS.
+---
+## Installation
+### Requirements
+ - Node.js (v19.1.1 or higher)
+ - npm or yarn for package management
+### Steps to Install
+- Clone the repository
+```
+  git clone https://github.com/your-username/movie-web.git
+```
+- Navigate to the project directory
+```
+  cd movie-web
+```
+- Install dependencies
+```
+  npm install
+```
+- Create file .env
+```
+  VITE_API_KEY
+  VITE_IMG_URL
+```
+- Start the development server
+```
+  npm run dev
+```
+---
+### Usage
+- Search: Users can search for movies, and the results will appear dynamically on the page. If no results are found, a message will display.
 
-Currently, two official plugins are available:
+- Movie Details: When a user clicks a movie in the list, a modal appears showing the movie's trailer using YouTube integration.
+---
+### Dependencies
+- React: JavaScript library for building user interfaces.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Framer Motion: Animations for page transitions and UI interactions.
 
-## React Compiler
+- React Modal: For displaying the movie trailer in a modal.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React YouTube: Embeds YouTube trailers.
 
-## Expanding the ESLint configuration
+- Tailwind CSS: For utility-first CSS styling.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React Router DOM: For handling page navigation.
+---
+
+
+### Contact
+- Email: hungtanth1406@gmail.com
+- GitHub: github.com/hungtan1406
